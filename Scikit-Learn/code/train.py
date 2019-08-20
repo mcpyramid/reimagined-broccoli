@@ -511,7 +511,7 @@ if __name__ == '__main__':
     timestr = time.strftime("%Y%m%d-%H%M%S")
     prefix = 'output'
     s3 = boto3.resource('s3')
-    bucket = 'mdas-pipeline-data'
+    bucket = 'mctestraaa-pipeline-data'
     key = "{}/{}.csv".format(prefix, timestr)
     print ("Uploading to s3")
     url = 's3://{}/{}'.format(bucket, key)

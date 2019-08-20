@@ -15,7 +15,7 @@ Parameters:
     Description: GitHub UserName
     Type: String
   Repo:
-    Default: MDAS
+    Default: mctestraaa
     Description: GitHub Repo to pull from. Only the Name. not the URL
     Type: String
   Branch:

@@ -55,7 +55,7 @@ sklearn = SKLearn(
   entry_point = 'train.py',
   source_dir = source_dir,
   train_instance_type = "ml.m5.24xlarge",
-  output_path = 's3://mdas-pipeline-data/model/',
+  output_path = 's3://mctestraaa-pipeline-data/model/',
   hyperparameters = hyperparameters,
   role = role)
 sklearn.fit({
