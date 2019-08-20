@@ -7,14 +7,11 @@ node {
                 doGenerateSubmoduleConfigurations: false, 
                 extensions: [], 
                 submoduleCfg: [], 
-                userRemoteConfigs: [
-                    [
-                        credentialsId: 'f2adcce0-abee-4e43-8a9b-fd1001dbdbf7', 
-                        url: 'https://github.com/mcpyramid/reimagined-broccoli.git'
-                        ]
-                    ]
+                userRemoteConfigs: [                        
+                    credentialsId: 'f2adcce0-abee-4e43-8a9b-fd1001dbdbf7', 
+                    url: 'https://github.com/mcpyramid/reimagined-broccoli.git'
                 ]
-            )
+            ])
         },
         stage("Build and Learn") {
             docker.image('docker.io/python:3.6.9').inside {
