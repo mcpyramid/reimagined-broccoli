@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage("SCM Checkout") {
+        // stage("SCM Checkout") {
         //     steps {
         //         checkout([
         //             $class: 'GitSCM', 
